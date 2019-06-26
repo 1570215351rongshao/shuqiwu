@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>蛋糕</title>
+    <!--引入四个文件注意顺序-->
+    <link rel="stylesheet" href="./css-js/css/bootstrap.css"/>
+    <script src="./css-js/js/jquery.min.js"></script>
+    <script src="./css-js/js/popper.min.js"></script>
+    <script src="./css-js/js/bootstrap.min.js"></script>
+    <style>
+
+        .img89{width:200px;height:184px;
+            transition: 1s;
+        }
+        .img89:hover{transform:scale(1.1); }
+
+        hr{
+            border: 0.5px solid #808080;}
+       .breadcrumb-item + .breadcrumb-item::before{content: ">";}
+       .breadcrumb{background-color: #fff;}
+        .breadcrumb li a{color:#808080; font-size:14px;}
+        .mian{color:#808080; font-size:14px;}
+        .bread+.bread{margin:0 20px;}
+
+        .fenfen{width:600px;; font-size:14px;color:#808080;}
+        .price_cm{margin-left:600px;}
+        .price{color:#e4004f;font-size:30px; font-weight:bold;;}
+        .prec{color:#e4004f;font-weight:bold;}
+        .cm{color:#e4004f;}
+        .￥{color:#e4004f;}
+       .butto{margin-left:600px;}
+       .btn{background:#e4004f;}
+        .btn a{color:#fff;}
+        .title{color:#e4004f;}
+        .my_header{width:100%;height:80px;}
+    </style>
+</head>
+<body>
+<header>
+    <iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+</header>
+<div class="container">
+
+    <hr/>
+    <!-- 面包屑-->
+    <div>
+        <ul class="breadcrumb p-0">
+            <li class="mian">当前位置：</li>
+            <li class="breadcrumb-item"><a href="index.html">首页</a></li>
+            <li class="breadcrumb-item"><a href="#">蛋糕</a></li>
+        </ul>
+    </div>
+    <!-- 蛋糕分类-->
+    <div>
+        <ul class="breadcrumb p-0">
+            <li class="bread"><a href="#">蛋糕分类</a></li>
+            <li class="bread"><a href="#">【新品上市】</a></li>
+            <li class="bread"><a href="#">奶油蛋糕</a></li>
+            <li class="bread"><a href="#">法式蛋糕</a></li>
+            <li class="bread"><a href="#">乳酪蛋糕</a></li>
+            <li class="bread"><a href="#">巧克力蛋糕</a></li>
+            <li class="bread"><a href="#">慕斯蛋糕</a></li>
+            <li class="bread"><a href="#">蛋挞</a></li>
+        </ul>
+    </div>
+    <!-- 所有分类-->
+    <!-- 第一个-->
+    <div>
+        <ul class="list-group">
+            <li class="list-group-item border-0 p-0">
+               <div class="media">
+                   <a href="#"><img class="img89" src="picter/2049_G_1553192164289.jpg" alt=""/></a>
+                   <div class="media-body">
+                       <h5><a class="title" href="#">草莓颂歌蛋糕</a></h5>
+                       <p class="fenfen">/粉粉嫩嫩一座城，一口下去，鲜滑草莓汁滋润心扉，甜蜜牛奶油陶醉味蕾，妙不可言的期待下一口/</p>
+                       <div class="price_cm">
+                       <span class="￥">￥</span>
+                       <span class="price">248</span>
+                       <span class="prec">.00</span>
+                       <span class="cm">/16*16cm</span>
+                       </div>
+                       <div class="butto">
+                       <button class="btn "><a  href="#">立即购买</a></button>
+                       <button class="btn"><a href="#">查看详情</a></button>
+                       </div>
+                   </div>
+               </div>
+            </li>
+        </ul>
+    </div>
+    <hr/>
+    <!-- 第二个-->
+    <div>
+        <ul class="list-group ">
+            <li class="list-group-item border-0 p-0">
+                <div class="media">
+                    <a href="#"><img class="img89" src="picter/2047_G_1553190170403.jpg" alt=""/></a>
+                    <div class="media-body">
+                        <h5><a class="title" href="#">草莓芳芳蛋糕</a></h5>
+                        <p class="fenfen">/%100使用进口天然稀奶油，匠心凝制而成原味蛋糕坯，四周沾有薄脆碎饼干，夹层小心翼翼的挤出天然稀奶油球，搭配红颜草莓，春日的音符不禁四散开来/</p>
+                        <div class="price_cm">
+                            <span class="￥">￥</span>
+                            <span class="price">248</span>
+                            <span class="prec">.00</span>
+                            <span class="cm">/16*16cm</span>
+                        </div>
+                        <div class="butto">
+                            <button class="btn "><a  href="#">立即购买</a></button>
+                            <button class="btn"><a href="#">查看详情</a></button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <hr/>
+    <!-- 第三个-->
+    <div>
+        <ul class="list-group ">
+            <li class="list-group-item border-0 p-0">
+                <div class="media">
+                    <a href="#"><img class="img89" src="picter/2048_G_1553191864710.jpg" alt=""/></a>
+                    <div class="media-body">
+                        <h5><a class="title" href="#">暗香蛋糕</a></h5>
+                        <p class="fenfen">/三层巧克力蛋糕坯，双层巧克力奶油，每一块都那么均匀，那么平整/</p>
+                        <div class="price_cm">
+                            <span class="￥">￥</span>
+                            <span class="price">258</span>
+                            <span class="prec">.00</span>
+                            <span class="cm">/16*16cm</span>
+                        </div>
+                        <div class="butto">
+                            <button class="btn "><a  href="#">立即购买</a></button>
+                            <button class="btn"><a href="#">查看详情</a></button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <hr/>
+    <!-- 第四个-->
+    <div>
+        <ul class="list-group ">
+            <li class="list-group-item border-0 p-0">
+                <div class="media">
+                    <a href="#"><img class="img89" src="picter/7_G_1525840836372.jpg" alt=""/></a>
+                    <div class="media-body">
+                        <h5><a class="title" href="#">缤纷盛果蛋糕</a></h5>
+                        <p class="fenfen">/天然进口稀奶油，搭配丰富的水果/</p>
+                        <div class="price_cm">
+                            <span class="￥">￥</span>
+                            <span class="price">308</span>
+                            <span class="prec">.00</span>
+                            <span class="cm">/35*35cm</span>
+                        </div>
+                        <div class="butto">
+                            <button class="btn "><a  href="#">立即购买</a></button>
+                            <button class="btn"><a href="#">查看详情</a></button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <hr/>
+</div>
+</body>
+</html>

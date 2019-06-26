@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<title>登录</title>
+<meta charset="utf-8">
+<!---引入四个文件，必须注意导入顺序-->
+    <link rel="stylesheet" href="./css-js/css/bootstrap.css"/>
+    <script src="./css-js/js/jquery.min.js"></script>
+    <script src="./css-js/js/popper.min.js"></script>
+    <script src="./css-js/js/bootstrap.min.js"></script>
+		<style>
+			*{margin:0;padding:0;}
+			/*中间内容*/
+			.v1{
+			     width:100%;
+				 height:400px;
+				 background:#e4004f;
+				 position:relative;
+				 background-repeat:no-repeat;
+				 margin:0 auto; 
+			}
+			.v1>img{margin-left:100px;}
+			.v2{
+			    width:280px;
+				height:300px;
+				border:1px solid red;
+				background-color:rgba(0,e4004f,0,.6);
+				padding:20px; 
+				border:0;
+				position:absolute;
+				top:10px;
+				left:940px;
+				}
+				.b1{width:100%;
+				    height:30px;
+					margin:10px 0;
+				    padding:5px 10px;
+				   }
+				.b2{width:100%;
+			    	height:30px;
+				    margin:10px 0;
+				    padding:5px 10px;
+				}
+			   td a{
+			     text-decoration:none;
+			     font-size:15px;
+			     color:#fff;
+			   }
+			   button{
+			         width:100%;
+					 height:30px;
+					 margin:10px 0;
+					 background:#999;
+					 border:0;
+			   }
+			   label{color:#fff;}
+			   #x1{
+			       font-size:15px;
+				   line-height:30px;
+			   }
+			   
+        /*底部列表*/
+				.d1{
+				 width:100%;
+				 height:214px;
+				 margin:80px auto;
+				}
+			   .d1 ul li a{float:left;color:#757575;
+				text-decoration:none;
+			   }
+               .d1 ul{float:left; list-style:none;margin-left:100px;}
+			   .d1 ul li:first-child{font-size:20px;}
+			   .d1 ul li img{width:100px;height:90px;}
+			   .my_header{width:100%;height:80px;}
+		</style>
+		
+</head>
+<body> 
+		<!--引用头部html-->
+		<header>
+			<iframe class="my_header" src="header.html" frameborder="0" scrolling="no"></iframe>
+		</header>
+	<!-- 登录部分-->
+	<div class="v1">
+		<img src="main.png" alt="">
+		<div class="v2">
+			    <table>
+			<tr>
+				<td><input type="radio">
+				<label for="">普通会员登录</label>
+				</td>
+				<td align="right"><input type="radio">
+				<label for="">手机动态码登录</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="b1" type="text" name="uname" placeholder="用户名/手机"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="b2" type="text" name="upwd" placeholder="输入密码"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox">
+				<label for="">七天内自动登录</label>
+				</td>
+				<td align="right"><a href="">忘记密码</a></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button>登录</button></td>
+			</tr>
+			<tr>
+				<td id="x2" colspan="2"><a href="">没有账号?立即注册</a></td>
+			</tr>
+			<tr>
+				<td id="x1" colspan="2">温馨提示:<br>成功注册会员,登陆后首次完善个人信息</td>
+			</tr>
+			</table>
+		</div>
+	</div>
+	<div class="d1">
+		<div class="d2">
+			<ul>
+				<li><a href="">帮助中心</a></li>
+				<li><a href="">购物帮助</a></li>
+				<li><a href="">支付方式</a></li>
+				<li><a href="">提货门店</a></li>
+			</ul>
+		</div>
+		<div class="d3">
+			<ul>
+				<li><a href="">门店服务</a></li>
+				<li><a href="">门店查询</a></li>
+				<li><a href="">购卡须知</a></li>
+				<li><a href="">积分查询</a></li>
+			</ul>
+		</div>
+		<div class="d4">
+			<ul>
+				<li><a href="">门店服务</a></li>
+				<li><a href="">门店查询</a></li>
+				<li><a href="">购卡须知</a></li>
+				<li><a href="">积分查询</a></li>
+			</ul>
+		</div>
+		<div class="d5">
+			<ul>
+				<li><a href="">关于我们</a></li>
+				<li><a href="">了解淑棋屋</a></li>
+				<li><a href="">新闻</a></li>
+				<li><a href="">加入我们</a></li>
+			</ul>
+		</div>
+		<div class="d6">
+			<ul>
+				<li><a href="">关注我们</a></li>
+				<li><a href="">官方微博</a></li>
+				<li><a href="">社区</a></li>
+				<li><a href="">公众号</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li><img src="	./picter/ma.png" alt=""></li>
+			</ul>
+		</div>
+	</div>
+</body> 
+</html>
