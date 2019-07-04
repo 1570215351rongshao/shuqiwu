@@ -1,26 +1,59 @@
-<!doctype html>
+<!docdype html>
 <html>
 <head>
-<title>登录</title>
+<title>我的其</title>
 <meta charset="utf-8">
-<!---引入四个文件，必须注意导入顺序-->
-    <link rel="stylesheet" href="./css-js/css/bootstrap.css"/>
-    <script src="./css-js/js/jquery.min.js"></script>
-    <script src="./css-js/js/popper.min.js"></script>
-    <script src="./css-js/js/bootstrap.min.js"></script>
 		<style>
-		   
+			*{margin:0;padding:0;}
+			.v1{
+			     width:1000px;
+				 height:800px;
+				 background-image:url("1.jpg");
+				 background-repeat:no-repeat;
+				 margin:0 auto; 
+			}
+			.v2{
+			    width:280px;
+				height:350px;
+				border:1px solid red;
+				margin-left:700px;
+				margin-top:100px;
+				background-color:rgba(0,0,0,.3);
+				padding:20px; 
+				border:0;
+				}
+				.b1{width:100%;
+				    height:30px;
+					margin:10px 0;
+				    padding:5px 10px;
+				   }
+				.b2{width:100%;
+			    	height:30px;
+				    margin:10px 0;
+				    padding:5px 10px;
+				}
+			   a{
+			     text-decoration:none;
+			     font-size:15px;
+			     color:#fff;
+			   }
+			   button{
+			         width:100%;
+					 height:30px;
+					 margin:10px 0;
+			   }
+			   label{color:#fff;}
+			   #x1{
+			       font-size:15px;
+				   line-height:30px;
+			   }
 		</style>
-		<link rel="stylesheet" href="css/login.css">
 </head>
-<body> 
-		<!--引用头部html-->
-		
-	<!-- 登录部分-->
+<body>
 	<div class="v1">
-		<img src="main.png" alt="">
+		<table></table>
 		<div class="v2">
-			    <table>
+		    <table>
 			<tr>
 				<td><input type="radio">
 				<label for="">普通会员登录</label>
@@ -31,7 +64,7 @@
 			</tr>
 			<tr>
 				<td colspan="2"><input class="b1" type="text" name="uname" placeholder="用户名/手机"></td>
-				<td></td>
+				<!--<td></td>-->
 			</tr>
 			<tr>
 				<td colspan="2"><input class="b2" type="text" name="upwd" placeholder="输入密码"></td>
@@ -55,6 +88,5 @@
 			</table>
 		</div>
 	</div>
-	<!-- 引用脚部 -->
-</body> 
+</body>
 </html>

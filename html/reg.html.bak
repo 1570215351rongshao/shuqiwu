@@ -1,25 +1,56 @@
 <!docdype html>
 <html>
 <head>
-<title>注册</title>
+<title>我的其</title>
 <meta charset="utf-8">
-	<!---引入四个文件，必须注意导入顺序-->
-	<link rel="stylesheet" href="./css-js/css/bootstrap.css"/>
-	<script src="./css-js/js/jquery.min.js"></script>
-	<script src="./css-js/js/popper.min.js"></script>
-	<script src="./css-js/js/bootstrap.min.js"></script>
 		<style>
-		   
+		    *{margin:0;padding:0;}
+			
+			.d1{
+			     width:1000px;
+				 height:800px;
+				 background-image:url("1.jpg");
+				 background-repeat:no-repeat;
+				 
+			}
+			.d2{
+			    width:250px;
+				height:330px;
+				/*border:1px solid red;*/
+				border-radius:3px;
+				margin-left:700px;
+				margin-top:100px;
+				background-color:rgba(0,0,0,.2);
+				padding:30px;
+			}
+			input{
+			     width:100%;
+				 height:30px;
+				 margin:5px 0;
+				 padding:5px 10px;
+			}
+			.huos{
+			   text-decoration:none;
+			   font-size:15px;
+			   color:#000;
+			}
+			.z{text-decoration:none;
+			      width:100%;
+				  height:30px;
+				  background:#666;
+				  color:#fff;
+				  border:0;
+			}
+			.d3{font-size:15px;
+			    line-height:30px;
+			 }
+			h4{margin:10px 0;}
 		</style>
-		<link rel="stylesheet" href="css/reg.css">
 </head>
 <body>
-	  <!--引用头部html-->
-	
-
-	
 	<div class="d1">
-			<img class=imgs src="main.png" alt="">
+
+			<table></table>
 		<div class="d2">
 		<table>
 			<tr>
@@ -48,6 +79,5 @@
 		</table>
 		</div>
 	</div>
-		<!-- 引用脚部 -->
 </body>
 </html>

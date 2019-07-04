@@ -1,0 +1,111 @@
+*{margin:0;padding:0;}
+/* 面包屑当前位置 */
+.breadcrumb-item + .breadcrumb-item::before{content: ">";}
+.breadcrumb{background-color: #fff;}
+
+.breadcrumb li a{
+     color:#808080;
+     font-size:14px;
+}
+.product-div{float:left;}
+.product-div ul{
+    float:left;
+    list-style:none;
+}
+.product-div ul li{float:left;}
+.product-div ul li a{
+    text-decoration: none; 
+    color:#757575;
+    font-size:14px;
+    margin-left:15px; 
+}
+/* 蛋糕分类下的图片 */
+.product-img{float:left;}
+.product-2-img{float:left;}
+.product-img ul{float:left;}
+.product-img ul img{ 
+    width:106px; 
+    height:106px; 
+}
+.product-img ul li{ 
+    list-style: none; 
+    margin-left: 100px; 
+}
+.product-img li+li{margin-top: 15px;}
+.product-img ul img:hover{border:1px solid #7575;}
+hr{border:0.5px solid #757575; clear:both;}
+/* 价格样式 */
+.product-price{margin-left:300px;}
+.product-price span{color:#E4004F;}
+.product-price span:nth-child(2){ 
+    font-weight:bold; 
+    font-size:35px; 
+}
+.product-spa{ 
+    display:table;
+    width:500px; 
+    font-size:12px; 
+}
+
+.product-button{ 
+    width:30px; 
+    height:30px; 
+     background:#fff; 
+     border:1px solid #757575 
+}
+.product-xian input{ 
+    width:40px; 
+    height:30px; 
+    text-align: center; 
+}
+.product-btn{ 
+    width:130px; 
+    height:36px; 
+    font-size:13px; 
+    color:#fff; 
+    border-radius:5px; 
+    border:0; 
+    margin-left:508px; 
+    background:#E4004F; 
+    margin-top: 10px; 
+}
+.product-shu{ 
+    font-size:14px; 
+    border:1px solid #fff; 
+    border-bottom:1px solid #757575; 
+}
+.product-tian{ 
+    color:#757575; 
+    font-size:14px; 
+}
+/*响应式*/
+/*大屏 w>992*/
+@media screen and (min-width:992px){
+.product-2-img{width:72%; }
+.product-ul-img{width:28%;}
+
+}
+/*中频* 768<w<=991*/
+@media screen and (min-width:768px) and (max-width:991px){
+.product-2-img{width:72%; }
+.product-ul-img{width:28%;}   
+.product-end li img{width:600px;}
+}
+/*小屏 w<767*/
+@media screen and (max-width:767px){
+    .product-2-img{ 
+        width:200px; 
+        height:200px;
+    }
+    .product-ul-img li { 
+        width:82px; 
+        height:82px;
+    }
+    .img-3{display:none;}
+    .product-btn{margin-left:200px;}
+    .product-end li img{ 
+        width:400px; 
+        height:400px; 
+    }
+}
+.product-end{list-style:none;}

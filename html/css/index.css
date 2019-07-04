@@ -1,0 +1,45 @@
+*{margin:0;padding:0;}
+
+/* 中间四张图片 */
+.action{width:1170px;height:555px;
+    margin:auto;
+    position:relative;
+    top: 20px;
+}
+.action img{
+    transition:1s;
+}
+.action img:hover{transform: scale(1.1);}
+.action a:first-child{position:absolute;top:0;left:0;}
+.action a:nth-child(2){position:absolute;top:0px;left:520px;}
+.action a:nth-child(3){position:absolute;top:235px;left:520px;}
+.action a:nth-child(4){position:absolute;top:235px;left:848px;}
+
+/*轮播*/
+.carousel-control-prev,
+.carousel-control-next{
+    width:2%;height:10%;
+    background-color:#d67989;
+    top:40%;
+}
+/*箭头部分*/
+.carousel-control-prev {
+    left:90px;
+}
+
+.carousel-control-next {
+    right: 90px;
+}
+/* 轮播指示器 */
+.carousel-indicators li{ 
+    width:0.5rem; 
+    height:0.5rem;
+    border-radius: 50%;
+    background:#686868;
+    margin:0 5%;
+}
+.carousel-indicators .active{background:#007bff;}
+.lun{ 
+    width:1170px; 
+    margin:0 auto;
+}

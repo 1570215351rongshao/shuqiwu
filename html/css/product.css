@@ -1,0 +1,54 @@
+*{margin:0;padding:0;}
+
+.img89{ 
+    width:200px; 
+    height:184px;
+    transition: 1s;
+}
+.img89:hover{transform:scale(1.1); }
+
+hr{
+    border: 0.5px dashed #bcbcbc;}
+.breadcrumb-item + .breadcrumb-item::before{content: ">";}
+.breadcrumb{background-color: #fff;}
+.breadcrumb li a{color:#808080; font-size:14px;}
+.mian{color:#808080; font-size:14px;}
+.bread+.bread{margin:0 20px;}
+
+.fenfen{ 
+    width:600px;
+     font-size:14px; 
+     color:#808080;
+}
+/*.price_cm{margin-left:600px;}*/
+.price{ 
+    color:#e4004f; 
+    font-size:30px; 
+    font-weight:bold;
+}
+.prec{ 
+    color:#e4004f; 
+    font-weight:bold; 
+}
+.cm{color:#e4004f;}
+.bi{color:#e4004f;}
+/*.butto{margin-left:600px;}*/
+.btn{background:#e4004f;}
+.btn a{color:#fff;}
+.title{color:#e4004f;}
+/* 按钮响应式 */
+        /*大屏 w>992*/
+        @media screen and (min-width:992px){
+            .butto{ width:100%;margin-left:600px;}
+            .price_cm{margin-left:600px;}   
+         }
+         /*中频* 768<w<=991*/
+         @media screen and (min-width:768px) and (max-width:991px){
+             .butto{margin-left: 300px; }
+             .price_cm{ margin-left:300px;}  
+         }
+         /*小屏 w<767*/
+         @media screen and (max-width:767px){
+             .butto{margin-left: 50px; }
+             .price_cm{ margin-left:50px;}  
+         }  
